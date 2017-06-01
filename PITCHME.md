@@ -8,6 +8,10 @@
 <br>
 <span style="color:gray">GitHub, GitLab and Bitbucket</span>
 
+Note:
+Remember to explain why it's for everyone: no sign-up, nothing to install.
+Just MD. Then git-commit.
+
 ## GitPitch Markdown Presentations for Everyone
 
 Note:
@@ -26,6 +30,10 @@ Just MD. Then git-commit.
 ### No more <span style="color: #666666">Powerpoint.</span>
 <br>
 ### Just <span style="color: #e49436">Markdown</span>. Then <span style="color: #e49436">Git-Commit</span>.
+
+Note:
+Remember to explain why it's for everyone: no sign-up, nothing to install.
+Just MD. Then git-commit.
 
 ---
 
