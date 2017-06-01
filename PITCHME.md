@@ -8,6 +8,12 @@
 <br>
 <span style="color:gray">GitHub, GitLab and Bitbucket</span>
 
+## GitPitch Markdown Presentations for Everyone
+
+Note:
+Remember to explain why it's for everyone: no sign-up, nothing to install.
+Just MD. Then git-commit.
+
 ---
 
 ### GitPitch turns <span style="color: #e49436; text-transform: none">PITCHME.md</span> into interactive, online slideshows.
