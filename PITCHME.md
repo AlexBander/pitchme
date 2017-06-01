@@ -92,6 +92,62 @@ Just MD. Then git-commit.
 
 ---
 
+Reveal.initialize({
+	// ...
+  chart: {
+	  defaults: { 
+		  global: { 
+			  title: { fontColor: "#FFF" }, 
+		  }, 
+			legend: {
+				labels: { fontColor: "#FFF" },
+			},
+			scale: { 
+				scaleLabel: { fontColor: "#FFF" }, 
+				gridLines: { color: "#FFF", zeroLineColor: "#FFF" }, 
+				ticks: { fontColor: "#FFF" }, 
+			} 
+		},
+		line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ]}, 
+		bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+		pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+		radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+	},
+	// ...
+});
+
+---
+
+<canvas data-chart="line">
+
+{
+ "data": {
+  "labels": ["January"," February"," March"," April"," May"," June"," July"],
+  "datasets": [
+   {
+    "data":[65,59,80,81,56,55,40],
+    "label":"My first dataset","backgroundColor":"rgba(20,220,220,.8)"
+   },
+   {
+    "data":[28,48,40,19,86,27,90],
+    "label":"My second dataset","backgroundColor":"rgba(220,120,120,.8)"
+   }
+  ]
+ }, 
+ "options": { "responsive": "true" }
+}
+
+</canvas>
+
+---
+
+<canvas class="stretch" data-chart="line">
+My first dataset, 65, 59, 80, 81, 56, 55, 40
+<!-- This is a comment that will be ignored -->
+My second dataset, 28, 48, 40, 19, 86, 27, 90
+
+---
+
 <span style="color: #e49436">GIT</span>PITCH FEATURE RICH SLIDESHOWS
 
 - GitHub Flavored Markdown +
