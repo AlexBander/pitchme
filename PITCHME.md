@@ -55,6 +55,12 @@ Create GitPitch slideshow content using GitHub flavored Markdown in your favorit
 
 Git-commit on any branch and push your PITCHME.md to GitHub, GitLab or Bitbucket.
 
+Note:
+Remember to explain why it's for everyone: no sign-up, nothing to install.
+Just MD. Then git-commit.
+
+---
+
 ---
 
 <span style="color: #e49436">STEP 3. GET THE WORD OUT!</span>
@@ -66,6 +72,10 @@ Git-commit on any branch and push your PITCHME.md to GitHub, GitLab or Bitbucket
 <br>
 
 Instantly use your GitPitch slideshow URL to promote, pitch or present absolutely anything.
+
+Note:
+Remember to explain why it's for everyone: no sign-up, nothing to install.
+Just MD. Then git-commit.
 
 ---
 
@@ -93,6 +103,9 @@ Instantly use your GitPitch slideshow URL to promote, pitch or present absolutel
 - Your Slideshow Is Part Of Your Project
 - Under Git Version Control Within Your Git Repo
 
+Note:
+Remember to explain why it's for everyone: no sign-up, nothing to install.
+Just MD. Then git-commit.
 
 ---
 
