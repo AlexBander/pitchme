@@ -8,11 +8,13 @@
 <br>
 <span style="color:gray">GitHub, GitLab and Bitbucket</span>
 
+
 Note:
 Remember to explain why it's for everyone: no sign-up, nothing to install.
 Just MD. Then git-commit.
 
 ---
+
 
 ## GitPitch Markdown Presentations for Everyone
 
